@@ -8,7 +8,7 @@
 
 import Foundation
 
-public enum HTTPMethod: String{
+public enum HTTPMethod: String {
     case get = "GET"
     case post = "POST"
     case put = "PUT"
@@ -16,15 +16,19 @@ public enum HTTPMethod: String{
     case delete = "DELETE"
 }
 
-public enum Route: String{
+public enum Route: String {
     case movies = "discover/movie"
+    case token = "authentication/token/new"
+    case session = "authentication/session/new"
+    case account = "account"
 }
 
 struct Request {
+    
     static let headers = [
         "Accept": "application/json",
         "Content-Type": "application/json",
-        "Authorization": "Bearer eyJhbGciOiJIUzI1NiJ9.eyJhdWQiOiIyZjZkNDAyZmY4NmE0Y2IzYWVkOWI2OWRhNTU0Zjc0OCIsInN1YiI6IjVmMDM2MTIxZGQyNTg5MDAzNzllMTEzMCIsInNjb3BlcyI6WyJhcGlfcmVhZCJdLCJ2ZXJzaW9uIjoxfQ.hTkqibo3rVcwNJgBVyk_HRzijxNBPMoSTsWof8feJn4"
+        "Authorization": "\(Constants().authToken)"
     ]
     
     public static let baseImageURL = URL(string: "https://image.tmdb.org/t/p/w500")!

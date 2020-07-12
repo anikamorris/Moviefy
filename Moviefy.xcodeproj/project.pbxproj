@@ -27,6 +27,8 @@
 		CF4E702F24B39B58003B6D91 /* NetworkError.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF4E702E24B39B58003B6D91 /* NetworkError.swift */; };
 		CF4E703124B39C2A003B6D91 /* Encoder.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF4E703024B39C2A003B6D91 /* Encoder.swift */; };
 		CF4E703324B39C8B003B6D91 /* Response.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF4E703224B39C8B003B6D91 /* Response.swift */; };
+		CF4E705E24BB90B2003B6D91 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF4E705D24BB90B2003B6D91 /* LoginViewController.swift */; };
+		CF4E706024BB9552003B6D91 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF4E705F24BB9552003B6D91 /* Constants.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -64,6 +66,8 @@
 		CF4E702E24B39B58003B6D91 /* NetworkError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkError.swift; sourceTree = "<group>"; };
 		CF4E703024B39C2A003B6D91 /* Encoder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Encoder.swift; sourceTree = "<group>"; };
 		CF4E703224B39C8B003B6D91 /* Response.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Response.swift; sourceTree = "<group>"; };
+		CF4E705D24BB90B2003B6D91 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		CF4E705F24BB9552003B6D91 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -102,6 +106,7 @@
 			isa = PBXGroup;
 			children = (
 				ABAB4F0B241A172E001E85CA /* ViewController.swift */,
+				CF4E705D24BB90B2003B6D91 /* LoginViewController.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -144,6 +149,7 @@
 				ABAB4F0D241A172E001E85CA /* Main.storyboard */,
 				ABAB4F12241A1732001E85CA /* LaunchScreen.storyboard */,
 				ABAB4F15241A1732001E85CA /* Info.plist */,
+				CF4E705F24BB9552003B6D91 /* Constants.swift */,
 			);
 			path = Moviefy;
 			sourceTree = "<group>";
@@ -240,10 +246,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CF4E705E24BB90B2003B6D91 /* LoginViewController.swift in Sources */,
 				AB9F5800243D62FF006612A3 /* TitleSection.swift in Sources */,
 				AB9F5803243D6327006612A3 /* TitleCell.swift in Sources */,
 				ABAB4F0C241A172E001E85CA /* ViewController.swift in Sources */,
 				ABAB4F08241A172E001E85CA /* AppDelegate.swift in Sources */,
+				CF4E706024BB9552003B6D91 /* Constants.swift in Sources */,
 				AB9F5810243D6820006612A3 /* Movie.swift in Sources */,
 				AB9F57FA243D54F1006612A3 /* MovieCell.swift in Sources */,
 				CF4E703324B39C8B003B6D91 /* Response.swift in Sources */,
