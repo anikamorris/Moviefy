@@ -29,6 +29,9 @@
 		CF4E703324B39C8B003B6D91 /* Response.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF4E703224B39C8B003B6D91 /* Response.swift */; };
 		CF4E705E24BB90B2003B6D91 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF4E705D24BB90B2003B6D91 /* LoginViewController.swift */; };
 		CF4E706024BB9552003B6D91 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF4E705F24BB9552003B6D91 /* Constants.swift */; };
+		CF4E706224BB9824003B6D91 /* AuthenticationTokenResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF4E706124BB9824003B6D91 /* AuthenticationTokenResponse.swift */; };
+		CF4E706424BB9857003B6D91 /* CreateSessionResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF4E706324BB9857003B6D91 /* CreateSessionResponse.swift */; };
+		CF4E706624BB9861003B6D91 /* Account.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF4E706524BB9861003B6D91 /* Account.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -68,6 +71,9 @@
 		CF4E703224B39C8B003B6D91 /* Response.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Response.swift; sourceTree = "<group>"; };
 		CF4E705D24BB90B2003B6D91 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		CF4E705F24BB9552003B6D91 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		CF4E706124BB9824003B6D91 /* AuthenticationTokenResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthenticationTokenResponse.swift; sourceTree = "<group>"; };
+		CF4E706324BB9857003B6D91 /* CreateSessionResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateSessionResponse.swift; sourceTree = "<group>"; };
+		CF4E706524BB9861003B6D91 /* Account.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Account.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -115,6 +121,9 @@
 			isa = PBXGroup;
 			children = (
 				AB9F580F243D6820006612A3 /* Movie.swift */,
+				CF4E706124BB9824003B6D91 /* AuthenticationTokenResponse.swift */,
+				CF4E706324BB9857003B6D91 /* CreateSessionResponse.swift */,
+				CF4E706524BB9861003B6D91 /* Account.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -140,7 +149,6 @@
 			children = (
 				CF4E702924B39ACD003B6D91 /* Networking */,
 				ABAB4F07241A172E001E85CA /* AppDelegate.swift */,
-				ABAB4F09241A172E001E85CA /* SceneDelegate.swift */,
 				AB9F580E243D680D006612A3 /* Model */,
 				AB9F5806243D6495006612A3 /* Controller */,
 				AB9F57FC243D57D3006612A3 /* Sections */,
@@ -162,6 +170,7 @@
 				CF4E702E24B39B58003B6D91 /* NetworkError.swift */,
 				CF4E703024B39C2A003B6D91 /* Encoder.swift */,
 				CF4E703224B39C8B003B6D91 /* Response.swift */,
+				ABAB4F09241A172E001E85CA /* SceneDelegate.swift */,
 			);
 			path = Networking;
 			sourceTree = "<group>";
@@ -247,9 +256,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				CF4E705E24BB90B2003B6D91 /* LoginViewController.swift in Sources */,
+				CF4E706424BB9857003B6D91 /* CreateSessionResponse.swift in Sources */,
 				AB9F5800243D62FF006612A3 /* TitleSection.swift in Sources */,
 				AB9F5803243D6327006612A3 /* TitleCell.swift in Sources */,
 				ABAB4F0C241A172E001E85CA /* ViewController.swift in Sources */,
+				CF4E706624BB9861003B6D91 /* Account.swift in Sources */,
+				CF4E706224BB9824003B6D91 /* AuthenticationTokenResponse.swift in Sources */,
 				ABAB4F08241A172E001E85CA /* AppDelegate.swift in Sources */,
 				CF4E706024BB9552003B6D91 /* Constants.swift in Sources */,
 				AB9F5810243D6820006612A3 /* Movie.swift in Sources */,
@@ -411,7 +423,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.amgm.Moviefy;
+				PRODUCT_BUNDLE_IDENTIFIER = com.anikamorris.Moviefy;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -429,7 +441,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.amgm.Moviefy;
+				PRODUCT_BUNDLE_IDENTIFIER = com.anikamorris.Moviefy;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
