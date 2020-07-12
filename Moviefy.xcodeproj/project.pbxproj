@@ -147,8 +147,9 @@
 		ABAB4F06241A172E001E85CA /* Moviefy */ = {
 			isa = PBXGroup;
 			children = (
-				CF4E702924B39ACD003B6D91 /* Networking */,
+				ABAB4F09241A172E001E85CA /* SceneDelegate.swift */,
 				ABAB4F07241A172E001E85CA /* AppDelegate.swift */,
+				CF4E702924B39ACD003B6D91 /* Networking */,
 				AB9F580E243D680D006612A3 /* Model */,
 				AB9F5806243D6495006612A3 /* Controller */,
 				AB9F57FC243D57D3006612A3 /* Sections */,
@@ -170,7 +171,6 @@
 				CF4E702E24B39B58003B6D91 /* NetworkError.swift */,
 				CF4E703024B39C2A003B6D91 /* Encoder.swift */,
 				CF4E703224B39C8B003B6D91 /* Response.swift */,
-				ABAB4F09241A172E001E85CA /* SceneDelegate.swift */,
 			);
 			path = Networking;
 			sourceTree = "<group>";
