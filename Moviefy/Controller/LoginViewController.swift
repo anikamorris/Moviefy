@@ -38,7 +38,6 @@ class LoginViewController: UIViewController, ASWebAuthenticationPresentationCont
     }
     
     func authorizeRequestToken(from viewController: UIViewController, requestToken: String) {
-        let url = URL(string: "https://www.themoviedb.org/authenticate/\(requestToken)?redirect_to=moviefy://auth")!
         // Use the URL and callback scheme specified by the authorization provider.
         guard let authURL = URL(string: "https://www.themoviedb.org/authenticate/\(requestToken)?redirect_to=moviefy://auth") else { return }
             let scheme = "auth"
